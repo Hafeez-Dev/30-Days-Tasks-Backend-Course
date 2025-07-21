@@ -1,0 +1,11 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false   // ← very important! keeps ES Modules instead of converting to CommonJS
+      }
+    ],
+    "@babel/preset-react"
+  ]
+}
